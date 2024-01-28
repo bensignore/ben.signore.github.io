@@ -12,17 +12,15 @@
     margin-left: auto;
     margin-right: auto;
     }
-  .cntr { 
-    
+.cntr {
     color: rgb(255, 255, 255);
     font-family: "Papyrus", fantasy;
     background-image: url(myBackground.jpg);
     border: 5px solid;
     margin: auto;
     width: 790px;
-    text-align: center; 
   }
-  table {
+table {
   border-spacing: 25px;
   border-width: 15px;    
   margin-left: auto;
@@ -31,9 +29,23 @@
   width: 800px;
   background-color: #000000;
   }
-  body {background-color: #002255;}
-  
-  </style>  
+body {background-color: #002255;}
+.text {
+  padding-left: 10px;
+  width: 325px;}  
+#images {float: right;
+  position: relative;
+  top: -770px;
+  right: 0px;
+  padding-right: 10px;
+}
+#header {text-align: center;}
+.row2 {float: right;
+position: relative;
+top: -400px;
+right: -400px;
+text-align:center;}
+</style>  
 <table>
     <tr>
     <td>
@@ -55,10 +67,22 @@
   </thead>
 </table>
 <div class="cntr">
-<h1> About Me</h1>
-<p>Hello, my name is Ben. I am from Bristol, Rhde Island, and I am a freshman at the University of Rhode Island. I started at URI as a Political Science major, but I am currently exploring new opportunties in Computer Science and Finance. </p> 
-<p>I chose URI because of its familiarity. I have a sister who currently attends URI for diatetics. My father also attended URI. My mother works at West Kingston Elementary, and worked at Wakefield Elementary for the majority of my childhood, so I spend a lot of time in the Wakefield/South Kingston area growing up. I am enjoying my time at URI, as it feels like it is not too close to home, yet I am close enough that if I need anything, my family is around.</p>
-<p> </p> 
+<h1 id="header">About Me</h1>
+<p class="text">Hello, my name is Ben Signore. I am from <a href="https://www.bristolri.gov"> Bristol, Rhode Island, </a>and I am a freshman at the <a href="https://www.uri.edu/here/?gclid=CjwKCAiA8NKtBhBtEiwAq5aX2EfACRcVMYmpyKI3SlaX5dLZl1NQ6yMr1eSKx4OtMYYtG3pEAXW-9hoCY28QAvD_BwE"> University of Rhode Island.</a> I started at URI as a Political Science major, but I am currently exploring new opportunties in Computer Science and Finance.</p> 
+<p class="text">I chose URI because of its familiarity. I have a sister who currently attends URI for diatetics. My <a href="https://www.therhodelawyer.com">father</a> also attended URI. My mother works at West Kingston Elementary, and worked at Wakefield Elementary for the majority of my childhood, so I spend a lot of time in the Wakefield/South Kingston area growing up. I am enjoying my time at URI, as it feels like it is not too close to home, yet I am close enough that if I need anything, my family is around.</p>
+<p class="text">Some of my hobbies include bodybuilding and powerlifitng, watching college and professional sports, and taking care of my 10 chickens. My favorite sports teams are the <a href="https://en.wikipedia.org/wiki/New_England_Patriots">New England Patriots</a>, <a href="https://en.wikipedia.org/wiki/Boston_Celtics">Boston Celtics</a>, and <a href="https://en.wikipedia.org/wiki/Alabama_Crimson_Tide_football">Alabama Crimson Tide</a>. In my free time I like to go to the gym and drive around with my friends.
+<p class="text"> My favorite movie is <a href="https://en.wikipedia.org/wiki/La_Haine"> La Haine </a>and my favorite show is <a href="https://en.wikipedia.org/wiki/La_Haine">Avatar: The Last Airbender</a>. My favorite musical artist is Lil Uzi Vert.</p>
+<p class="text">Links to my social media: <a href="https://www.instagram.com/bensignore/?hl=en"> Instagram</a></p> 
+<div id="images">
 <img src="ben.jpg" alt="Ben" height="331px">
 <img src="IMG_35AC99C1B51C-1.jpeg" alt="Carti" height="331px">
+</div>
+<div class="row2">
+  <img src="Unknown.jpeg" alt="Bristol" height="200px">
+  <figure>
+  <img src="Lifta.jpg" alt="Lifta" height="125px">
+    <figcaption>This is actually just a picture of me</figcaption>
+  </figure>
+</div>
+</div>
 </html>
